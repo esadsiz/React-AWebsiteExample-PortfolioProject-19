@@ -10,9 +10,9 @@ export const pagesObj = {
   },
   home: {
     header: {
-      title: "HOL DIE DIGITALISIERUNGS-PROFIS",
+      title: "DIGITALISIERUNGS-PROFIS",
       description:
-        "Wir haben die richtigen Geräte & Werkzeuge um Ihre Unternehmenswebseite zu entwickeln und Ihre Prozesse mit Software-Entwicklung zu digitalisieren.",
+        "Wir haben die richtigen Geräte & Werkzeuge um Ihre Webseite zu entwickeln.",
       button: "JETZT PROFIS KONTAKTIEREN",
     },
     title: "„Das Internet ist nur ein Hype!“",
