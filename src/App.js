@@ -11,8 +11,6 @@ import { useState } from "react";
 import DerFirma from "./routes/derfirma/derfirma.component";
 import Werkzeugen from "./routes/werkzeugen/werkzeugen.component";
 
-localStorage.clear();
-
 if (!Boolean(localStorage.entdeckenCardsLocal)) {
   localStorage.setItem(
     "entdeckenCardsLocal",
