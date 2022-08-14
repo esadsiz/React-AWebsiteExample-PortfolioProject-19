@@ -1,0 +1,334 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-firstsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.75rem;
+    width: 100rem;
+
+    h1 {
+      font-size: 2.5rem;
+      letter-spacing: 0.25rem;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.75);
+    }
+
+    h2 {
+      font-size: 2rem;
+      letter-spacing: 0.125rem;
+      text-align: center;
+      margin-right: 5rem;
+      margin-left: 5rem;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  &-unserwerkzeugen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+      margin-top: 12.5rem;
+      text-align: center;
+      font-size: 2.5rem;
+      letter-spacing: 0.3rem;
+    }
+  }
+
+  &-unternehmen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+      margin-top: 12.5rem;
+      text-align: center;
+      font-size: 2.5rem;
+      letter-spacing: 0.3rem;
+    }
+
+    &-description {
+      font-size: 1.5rem;
+    }
+  }
+
+  &-digitalenwerkbank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+      margin-top: 12.5rem;
+      text-align: center;
+      font-size: 2.5rem;
+      letter-spacing: 0.3rem;
+    }
+  }
+
+  &-partnerships {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+      margin-top: 12.5rem;
+      text-align: center;
+      font-size: 2.5rem;
+      letter-spacing: 0.3rem;
+    }
+  }
+
+  ///
+  ///
+  ///
+  ///
+  ///
+  ///
+  ///
+}
+
+@media only screen and (max-width: 3440px) and (min-width: 2561px) {
+  .home-firstsection {
+    width: 140rem;
+  }
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1441px) {
+  .home-firstsection {
+    width: 130rem;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+  .home-firstsection {
+    width: 100rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .home-firstsection {
+    margin-right: 15%;
+    margin-left: 15%;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .home-firstsection {
+    margin-right: 15%;
+    margin-left: 15%;
+    width: auto;
+
+    h1 {
+      font-size: 2.25rem;
+      margin-bottom: 0rem;
+      letter-spacing: 0.125rem;
+    }
+
+    h3 {
+      font-size: 1.33rem;
+      margin-bottom: 2.5rem;
+      margin-top: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 5rem;
+      letter-spacing: 0.1rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 321px) {
+  .home-firstsection {
+    margin-right: 15%;
+    margin-left: 15%;
+    width: auto;
+    line-height: 2.5rem;
+
+    h1 {
+      font-size: 2.25rem;
+      margin-bottom: 0rem;
+      letter-spacing: 0.125rem;
+    }
+
+    h3 {
+      margin-top: 2.5rem;
+      font-size: 1.33rem;
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 5rem;
+      letter-spacing: 0.1rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  .home-unserwerkzeugen {
+    &-title {
+      font-size: 1.125rem;
+    }
+  }
+
+  .home-unternehmen {
+    &-title {
+      font-size: 1.125rem;
+    }
+
+    &-description {
+      font-size: 1rem;
+    }
+  }
+
+  .home-digitalenwerkbank {
+    &-title {
+      font-size: 1.125rem;
+    }
+  }
+
+  .home-partnerships {
+    &-title {
+      font-size: 1.125rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 241px) {
+  .home-firstsection {
+    margin-right: 15%;
+    margin-left: 15%;
+    width: auto;
+    line-height: 2.25rem;
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0rem;
+      letter-spacing: 0.125rem;
+    }
+
+    h3 {
+      margin-top: 2.5rem;
+      font-size: 1.25rem;
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.33rem;
+      margin-bottom: 5rem;
+      letter-spacing: 0.1rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+  .home-unserwerkzeugen {
+    &-title {
+      font-size: 1rem;
+    }
+  }
+
+  .home-unternehmen {
+    &-title {
+      font-size: 1rem;
+    }
+
+    &-description {
+      font-size: 1rem;
+    }
+  }
+
+  .home-digitalenwerkbank {
+    &-title {
+      font-size: 1rem;
+    }
+  }
+
+  .home-partnerships {
+    &-title {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 240px) and (min-width: 0px) {
+  .home-firstsection {
+    margin-right: 15%;
+    margin-left: 15%;
+    width: auto;
+    line-height: 2.25rem;
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0rem;
+      letter-spacing: 0rem;
+    }
+
+    h3 {
+      margin-top: 2.5rem;
+      font-size: 1.25rem;
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.33rem;
+      margin-bottom: 5rem;
+      letter-spacing: 0rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+  .home-unserwerkzeugen {
+    &-title {
+      font-size: 0.55rem;
+    }
+  }
+
+  .home-unternehmen {
+    &-title {
+      font-size: 0.55rem;
+    }
+
+    &-description {
+      font-size: 0.8rem;
+    }
+  }
+
+  .home-digitalenwerkbank {
+    &-title {
+      font-size: 0.55rem;
+    }
+  }
+
+  .home-partnerships {
+    &-title {
+      font-size: 0.55rem;
+    }
+  }
+}

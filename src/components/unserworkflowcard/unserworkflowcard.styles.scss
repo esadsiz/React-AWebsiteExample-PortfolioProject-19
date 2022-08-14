@@ -1,0 +1,142 @@
+.unserworkflow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 35rem;
+  height: 35rem;
+  border: 1px solid rgba(210, 210, 210, 0.3);
+  margin: 3rem 1rem;
+  padding: 1.5rem;
+
+  &-title {
+    color: #23a1e0;
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+    text-align: center;
+    height: 2rem;
+  }
+
+  &-text {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+
+  &-cardsalign {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(1, auto);
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+  .unserworkflow {
+    width: 45rem;
+    height: 33rem;
+
+    &-cardsalign {
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(3, auto);
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .unserworkflow {
+    width: 33rem;
+    height: 38rem;
+
+    &-cardsalign {
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(3, auto);
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 701px) {
+  .unserworkflow {
+    width: 20rem;
+    height: 40rem;
+    margin: 0rem 0rem;
+    padding: 1rem;
+
+    &-title {
+      font-size: 1.25rem;
+      letter-spacing: 0.1rem;
+    }
+
+    &-text {
+      height: 12.5rem;
+      font-size: 1.25rem;
+    }
+
+    &-cardsalign {
+      grid-template-columns: repeat(3, auto);
+      grid-template-rows: repeat(1, auto);
+      grid-gap: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 426px) {
+  .unserworkflow {
+    width: 18rem;
+    height: 45rem;
+    margin: 0rem 0rem;
+    padding: 1rem;
+
+    &-title {
+      font-size: 1.25rem;
+      letter-spacing: 0.1rem;
+    }
+
+    &-text {
+      height: 22rem;
+      font-size: 1.25rem;
+    }
+
+    &-cardsalign {
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(2, auto);
+      grid-gap: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 321px) {
+  .unserworkflow {
+    width: 28rem;
+    height: 42rem;
+    &-cardsalign {
+      grid-template-columns: repeat(1, auto);
+      grid-template-rows: repeat(4, auto);
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 0px) {
+  .unserworkflow {
+    width: 18rem;
+    height: 44rem;
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+
+    &-title {
+      font-size: 1.25rem;
+      letter-spacing: 0.1rem;
+    }
+
+    &-text {
+      height: 22rem;
+      font-size: 1.25rem;
+    }
+
+    &-cardsalign {
+      grid-template-columns: repeat(1, auto);
+      grid-template-rows: repeat(4, auto);
+    }
+  }
+}

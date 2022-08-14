@@ -1,0 +1,12 @@
+.werkzeugen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-title {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+  }
+}

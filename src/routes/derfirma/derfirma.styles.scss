@@ -1,0 +1,190 @@
+.dwpagealign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.derfirma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2.75rem;
+  width: 100rem;
+
+  &-title {
+    font-size: 2.5rem;
+    letter-spacing: 0.25rem;
+    text-align: center;
+  }
+
+  &-description {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 5rem;
+  }
+
+  &-quote {
+    font-size: 2rem;
+    letter-spacing: 0.125rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+  }
+}
+
+///
+///
+///
+///
+///
+///
+///
+
+@media only screen and (max-width: 3440px) and (min-width: 2561px) {
+  .derfirma {
+    width: 140rem;
+  }
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1441px) {
+  .derfirma {
+    width: 130rem;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+  .derfirma {
+    width: 100rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .derfirma {
+    margin-right: 15%;
+    margin-left: 15%;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .derfirma {
+    margin-right: 15%;
+    margin-left: 15%;
+    width: auto;
+    &-title {
+      font-size: 2.25rem;
+      margin-bottom: 0rem;
+      letter-spacing: 0.125rem;
+    }
+
+    &-description {
+      font-size: 1.33rem;
+      margin-bottom: 2.5rem;
+      margin-top: 2.5rem;
+    }
+
+    &-quote {
+      font-size: 1.5rem;
+      margin-bottom: 5rem;
+      letter-spacing: 0.1rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 321px) {
+  .derfirma {
+    margin-right: 15%;
+    margin-left: 15%;
+    width: auto;
+    line-height: 2.5rem;
+
+    &-title {
+      font-size: 2.25rem;
+      margin-bottom: 0rem;
+      letter-spacing: 0.125rem;
+    }
+
+    &-description {
+      margin-top: 2.5rem;
+      font-size: 1.33rem;
+      margin-bottom: 2.5rem;
+    }
+
+    &-quote {
+      font-size: 1.5rem;
+      margin-bottom: 5rem;
+      letter-spacing: 0.1rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 0px) {
+  .derfirma {
+    margin-right: 15%;
+    margin-left: 15%;
+    width: auto;
+    line-height: 2.25rem;
+
+    &-title {
+      font-size: 2rem;
+      margin-bottom: 0rem;
+      letter-spacing: 0.125rem;
+    }
+
+    &-description {
+      margin-top: 2.5rem;
+      font-size: 1.25rem;
+      margin-bottom: 2.5rem;
+    }
+
+    &-quote {
+      font-size: 1.33rem;
+      margin-bottom: 5rem;
+      letter-spacing: 0.1rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 240px) and (min-width: 0px) {
+  .derfirma {
+    margin-right: 15%;
+    margin-left: 15%;
+    width: auto;
+    line-height: 2.25rem;
+
+    &-title {
+      font-size: 2rem;
+      margin-bottom: 0rem;
+      letter-spacing: 0rem;
+    }
+
+    &-description {
+      margin-top: 2.5rem;
+      font-size: 1.25rem;
+      margin-bottom: 2.5rem;
+    }
+
+    &-quote {
+      font-size: 1.33rem;
+      margin-bottom: 5rem;
+      letter-spacing: 0rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+}

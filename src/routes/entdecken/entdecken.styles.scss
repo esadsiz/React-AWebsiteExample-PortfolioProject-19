@@ -1,0 +1,238 @@
+.entdecken {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &-title {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+  }
+
+  &-adminpanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+    &-description {
+      text-align: center;
+    }
+
+    &-allinputs {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      width: 55.25rem;
+      border: 1px solid rgba(210, 210, 210, 0.5);
+      border-radius: 2.5rem;
+
+      input {
+        width: 53.5rem;
+        height: 1.5rem;
+        padding: 1rem;
+        margin: 0.5rem;
+        border: 0.01rem solid rgba(210, 210, 210, 0.75);
+        border-radius: 2.5rem;
+      }
+    }
+  }
+
+  &-editcards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  &-loginpanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+    &-buttons {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &-allinputs {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      width: 40rem;
+      border: 1px solid rgba(210, 210, 210, 0.5);
+      border-radius: 2.5rem;
+
+      input {
+        width: 38.25rem;
+        height: 1.5rem;
+        padding: 1rem;
+        margin: 0.25rem;
+        border: 0.01rem solid rgba(210, 210, 210, 0.75);
+        border-radius: 2.5rem;
+      }
+    }
+  }
+}
+
+.hideelements {
+  display: none;
+}
+
+@media only screen and (max-width: 425px) and (min-width: 321px) {
+  .entdecken {
+    &-title {
+      text-align: center;
+      font-size: 1.25rem;
+      letter-spacing: 0.3rem;
+    }
+
+    &-adminpanel {
+      &-description {
+        font-size: 1.5rem;
+        width: 24rem;
+        text-align: center;
+      }
+
+      &-allbuttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      &-allinputs {
+        width: 22rem;
+
+        input {
+          width: 20rem;
+        }
+      }
+    }
+
+    &-loginpanel {
+      &-allbuttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      &-allinputs {
+        width: 22rem;
+
+        input {
+          width: 20rem;
+        }
+      }
+    }
+
+    .hideelements {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 241px) {
+  .entdecken {
+    &-title {
+      font-size: 1rem;
+    }
+    &-adminpanel {
+      &-description {
+        font-size: 1.25rem;
+        width: 20rem;
+        text-align: center;
+      }
+
+      &-allbuttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      &-allinputs {
+        width: 20rem;
+
+        input {
+          width: 18rem;
+        }
+      }
+    }
+
+    &-loginpanel {
+      &-allbuttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      &-allinputs {
+        width: 20rem;
+
+        input {
+          width: 18rem;
+        }
+      }
+    }
+    .hideelements {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 240px) and (min-width: 0px) {
+  .entdecken {
+    &-title {
+      font-size: 0.66rem;
+    }
+    &-adminpanel {
+      &-description {
+        font-size: 1.125rem;
+        width: 20rem;
+        text-align: center;
+      }
+
+      &-allbuttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      &-allinputs {
+        width: 18rem;
+
+        input {
+          width: 16rem;
+        }
+      }
+    }
+
+    &-loginpanel {
+      &-allbuttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      &-allinputs {
+        width: 18rem;
+
+        input {
+          width: 16rem;
+        }
+      }
+    }
+
+    .hideelements {
+      display: none;
+    }
+  }
+}

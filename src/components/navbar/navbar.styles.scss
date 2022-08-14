@@ -1,0 +1,140 @@
+.navbar {
+  position: fixed;
+  z-index: 1;
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  a:link {
+    text-decoration: none;
+  }
+
+  &-logo {
+    margin-top: 0.25rem;
+    width: 5rem;
+    filter: invert(100%) brightness(1000%);
+  }
+
+  &-links {
+    margin: 3rem;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  .navbar {
+    justify-content: space-between;
+
+    h2 {
+      font-size: 1.25rem;
+    }
+
+    &-logo {
+      width: 3rem;
+    }
+
+    &-links {
+      margin: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .navbar {
+    justify-content: space-between;
+
+    h2 {
+      font-size: 1.1rem;
+    }
+
+    &-logo {
+      width: 2.5rem;
+    }
+
+    &-links {
+      margin: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .navbar {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-around;
+
+    h2 {
+      font-size: 1.25rem;
+    }
+
+    &-logo {
+      width: 2rem;
+    }
+
+    &-links {
+      margin: 0.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) and (min-width: 321px) {
+  .navbar {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+
+    h2 {
+      font-size: 1.125rem;
+    }
+
+    &-logo {
+      width: 1.8rem;
+    }
+
+    &-links {
+      margin: 0.66rem;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) and (min-width: 241px) {
+  .navbar {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+
+    h2 {
+      font-size: 1rem;
+    }
+
+    &-logo {
+      width: 1.6rem;
+    }
+
+    &-links {
+      margin: 0.5rem 0rem;
+    }
+  }
+}
+
+@media screen and (max-width: 240px) and (min-width: 0px) {
+  .navbar {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+
+    h2 {
+      font-size: 0.9rem;
+    }
+
+    &-logo {
+      width: 1.6rem;
+    }
+
+    &-links {
+      margin: 0.25rem 0rem;
+    }
+  }
+}

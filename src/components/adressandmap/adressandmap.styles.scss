@@ -1,0 +1,75 @@
+.addressandmap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .addressandmap {
+    &-map {
+      width: 45rem;
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .addressandmap {
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 3rem;
+    &-map {
+      width: 15rem;
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 376px) {
+  .addressandmap {
+    flex-direction: column;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 5rem;
+    &-map {
+      width: 35rem;
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 321px) {
+  .addressandmap {
+    flex-direction: column;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 5rem;
+    &-map {
+      width: 29rem;
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 0px) {
+  .addressandmap {
+    flex-direction: column;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 5rem;
+    &-map {
+      width: 21rem;
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 160px) {
+  .addressandmap {
+    &-map {
+      width: 52rem;
+      height: auto;
+    }
+  }
+}
