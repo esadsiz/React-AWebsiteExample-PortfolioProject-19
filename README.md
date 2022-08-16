@@ -1,4 +1,4 @@
-# https://react-awebsiteexample-esadsiz.netlify.app
+## https://react-awebsiteexample-esadsiz.netlify.app
 
 Alle Texte, Logos, Bilder und Schaltflächen, die man auf der Seiten sieht, werden von einem einzigen object namens "pagesObj" über props verteilt.
 Ebenso wurde jede sich wiederholende Komponente wie Karten, Bilder, Nachrichten nur einmal geschrieben und mit Hilfe von loops repliziert.
