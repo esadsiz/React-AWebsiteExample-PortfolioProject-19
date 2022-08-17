@@ -1,6 +1,6 @@
 export const pagesObj = {
   navbar: {
-    logo: "STARTSEITE",
+    logo: "ESADSIZ",
     link1: "ENTDECKEN",
     link2: "WERKZEUGEN",
     link3: "GERÄTEN",
